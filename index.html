@@ -17,7 +17,7 @@
 <body>
   <div class="nav-container">
     <h2 class="title" onclick="window.location.reload()">
-      Sorting visualizer
+      Sorting Visualizer
     </h2>
     <div class="navbar" id="navbar">
       <a id="random" onclick="RenderScreen()">Generate array</a>
@@ -60,20 +60,12 @@
       </span>
       <a class="start">Sort</a>
       <a class="icon"><i class="fa fa-bars"></i></a>
+      <a class ="Reset" onclick="RenderScreen()">Reset</a>
     </div>
   </div>
   <div class="center">
     <div class="array"></div>
   </div>
-  <footer class="footer">
-    <a class ="Reset" onclick="RenderScreen()">Reset</a>
-    <a class ="Pause" onclick="RenderScreen()">Pause</a>
-    <!-- <a class="icon"><i class="fa fa-bars"></i></a> -->
-    <!-- <a class ="stop">STOP</a> -->
-    <!-- <a class="icon"><i class="fa fa-bars"></i></a> -->
-    <!-- <a class="icon"><i class="fa fa-bars"></i></a> -->
-    </p>
-  </footer>
   <script src="./scripts/app.js"></script>
   <script src="./scripts/helper.js"></script>
   <script src="./scripts/sort-algorithms.js"></script>
